@@ -14,8 +14,6 @@ provider:
        Resource:
          - "*"
 functions:
-  hello:
-    handler: handler.hello
   dailyReminder:
     handler: handler.sendReminderDaily
     events:
